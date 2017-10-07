@@ -1,6 +1,6 @@
 [Базовая настройка DVB-S/S2 адаптера][1]
 
-# Базовая настройка SPTS потока, источник DVB-S/S2 адаптер:
+## Базовая настройка SPTS потока, источник DVB-S/S2 адаптер:
 
 - NAME - название потока;
 - ID - идентификатор канала;
@@ -12,7 +12,7 @@
 - OUTPUT LIST - список отправляемых потоков;
 	- NEW OUTPUT - добавить новый отправляемый поток.
 
-# NEW INPUT
+## NEW INPUT
 
 В ASTRA можно использовать различные источники:
 - DVB, ATSC, ASI
@@ -21,21 +21,21 @@
 - RTSP
 - MPEG-TS Файлы
 
-## DVB
+### DVB
 
-## ATSC
+### ATSC
 
-## ASI
+### ASI
 
-## HTTP (MPEG-TS, HLS)
+### HTTP (MPEG-TS, HLS)
 
-## UDP/RTP
+### UDP/RTP
 
-## RTSP
+### RTSP
 
-## MPEG-TS файлы
+### MPEG-TS файлы
 
-        
+## NEW OUTPUT     
         
         
         
