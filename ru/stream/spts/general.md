@@ -1,6 +1,6 @@
 [Базовая настройка DVB-S/S2 адаптера][1]
 
-[Базовая настройка SPTS потока, источник DVB-S/S2 адаптер][2]
+[Базовая настройка SPTS потока][2]
 
 ## В ASTRA можно использовать различные источники:
 
@@ -10,19 +10,24 @@
 - [RTSP](https://github.com/cesbo/astra-help/blob/master/ru/stream/spts/general.md#rtsp)
 - [MPEG-TS файлы](https://github.com/cesbo/astra-help/blob/master/ru/stream/spts/general.md#mpeg-ts-файлы)
 
-## Базовая настройка SPTS потока, источник DVB-S/S2 адаптер:
+## Базовая настройка SPTS потока:
 
 - NAME - название потока;
 - ID - идентификатор канала;
 	- Multi Program Stream - мультиплекс с несколькими программами SPTS (Single Program Transport Stream - поток с одной программой);
 	- Start stream on demand - автоматический старт вещания потока при запуске ASTRA;
 - KEEP ACTIVE (Delay before stop stream if no active connections. Default: 0 (turn off immediately)) - задержка перед остановкой потока, если нет активных соединений, по умолчанию: 0 - выключать незамедлительно;
-- INPUT LIST - список приёмных потоков;
-	- NEW INPUT - добавить новый приёмный поток;
+- INPUT LIST - список источников потоков;
+	- NEW INPUT - добавить дополнительный источник потока;
+	 
+	 ![Настройка SPTS](http://b4.icdn.ru/s/slavabogu/5/56430645JuZ.jpg "Настройка основного SPTS потока") - настройки основного источника;
+	 
+	 ![Настройка SPTS](http://b4.icdn.ru/s/slavabogu/6/56430646fUp.jpg "Добавление SPTS потока") - выбор порядка основного и резервных источников;
+	 
 - OUTPUT LIST - список отправляемых потоков;
-	- NEW OUTPUT - добавить новый отправляемый поток.
+	- NEW OUTPUT - добавить дополнительный отправляемый поток.
 	
-#### NEW INPUT
+### UDP/RTP
 
 ### DVB
 
@@ -31,8 +36,6 @@
 ### ASI
 
 ### HTTP (MPEG-TS, HLS)
-
-### UDP/RTP
 
 ### RTSP
 
