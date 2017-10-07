@@ -14,7 +14,7 @@
 
 ## В ASTRA можно использовать различные источники:
 
-- DVB, ATSC, ASI
+- [DVB](https://github.com/cesbo/astra-help/blob/master/ru/stream/spts/general.md#dvb), [ATSC](https://github.com/cesbo/astra-help/blob/master/ru/stream/spts/general.md#atsc), [ASI](https://github.com/cesbo/astra-help/blob/master/ru/stream/spts/general.md#asi)
 - HTTP (MPEG-TS, HLS)
 - UDP/RTP
 - RTSP
