@@ -2,7 +2,7 @@
 
 [Базовая настройка SPTS][2]
 
-## В ASTRA можно использовать различные источники:
+## В ASTRA можно использовать различные источники приёма:
 
 - [DVB](https://github.com/cesbo/astra-help/blob/master/ru/stream/spts/general.md#dvb), [ATSC](https://github.com/cesbo/astra-help/blob/master/ru/stream/spts/general.md#atsc), [ASI](https://github.com/cesbo/astra-help/blob/master/ru/stream/spts/general.md#asi)
 - [HTTP (MPEG-TS, HLS)](https://github.com/cesbo/astra-help/blob/master/ru/stream/spts/general.md#http-mpeg-ts-hls)
@@ -10,7 +10,7 @@
 - [RTSP](https://github.com/cesbo/astra-help/blob/master/ru/stream/spts/general.md#rtsp)
 - [MPEG-TS файлы](https://github.com/cesbo/astra-help/blob/master/ru/stream/spts/general.md#mpeg-ts-файлы)
 
-## Базовая настройка SPTS:
+## Базовая настройка приёма SPTS:
 
 - NAME - название потока;
 - ID - идентификатор канала;
