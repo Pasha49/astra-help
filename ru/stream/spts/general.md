@@ -15,10 +15,10 @@
 ## В ASTRA можно использовать различные источники:
 
 - [DVB](https://github.com/cesbo/astra-help/blob/master/ru/stream/spts/general.md#dvb), [ATSC](https://github.com/cesbo/astra-help/blob/master/ru/stream/spts/general.md#atsc), [ASI](https://github.com/cesbo/astra-help/blob/master/ru/stream/spts/general.md#asi)
-- HTTP (MPEG-TS, HLS)
-- UDP/RTP
-- RTSP
-- MPEG-TS Файлы
+- [HTTP (MPEG-TS, HLS)](https://github.com/cesbo/astra-help/blob/master/ru/stream/spts/general.md#http-mpeg-ts-hls)
+- [UDP/RTP](https://github.com/cesbo/astra-help/blob/master/ru/stream/spts/general.md#udp-rtp)
+- [RTSP](https://github.com/cesbo/astra-help/blob/master/ru/stream/spts/general.md#rtsp)
+- MPEG-TS файлы
 
 ### DVB
 
