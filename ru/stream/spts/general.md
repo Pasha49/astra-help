@@ -10,7 +10,7 @@
 - [RTSP](https://github.com/cesbo/astra-help/blob/master/ru/stream/spts/general.md#rtsp)
 - [MPEG-TS файлы](https://github.com/cesbo/astra-help/blob/master/ru/stream/spts/general.md#mpeg-ts-файлы)
 
-## Базовая настройка приёма SPTS:
+## Базовая настройка ASTRA:
 
 - NAME - название потока;
 - ID - идентификатор канала;
@@ -19,43 +19,51 @@
 - KEEP ACTIVE (Delay before stop stream if no active connections. Default: 0 (turn off immediately)) - задержка перед остановкой потока, если нет активных соединений, по умолчанию: 0 - выключать незамедлительно;
 - INPUT LIST - список источников потоков;
 
-	**NEW INPUT** - добавить дополнительный источник потока;
+	NEW INPUT - добавить дополнительный источник потока;
 	 
-	![Настройка SPTS источника приёма](http://b4.icdn.ru/s/slavabogu/5/56430645JuZ.jpg "Настройка SPTS источника приёма") - настройки основного источника приёма;
+	![Настройка ASTRA](http://b4.icdn.ru/s/slavabogu/5/56430645JuZ.jpg "Настройка ASTRA") - настройки основного источника приёма;
 	
 	- INPUT TYPE - выбор типа источника приёма:
 	
-	![Тип источника приёма](http://b4.icdn.ru/s/slavabogu/3/56431053iTx.jpg "Тип источника приёма")
+	![Настройка ASTRA](http://b4.icdn.ru/s/slavabogu/3/56431053iTx.jpg "Настройка ASTRA")
 
-	![Порядок SPTS источников приёма](http://b4.icdn.ru/s/slavabogu/6/56430646fUp.jpg "Порядок SPTS источников приёма") - выбор порядка основного и резервных источников приёма;
+	![Настройка ASTRA](http://b4.icdn.ru/s/slavabogu/6/56430646fUp.jpg "Настройка ASTRA") - выбор порядка основного и резервных источников приёма;
 	 
 - OUTPUT LIST - список передаваемых потоков;
 
-	**NEW OUTPUT** - добавить дополнительный передающий поток;
+	NEW OUTPUT - добавить дополнительный передающий поток;
 	
-	![Настройка SPTS передачи](http://b4.icdn.ru/s/slavabogu/5/56430645JuZ.jpg "Настройка SPTS передачи") - настройки основного потока передачи;
+	![Настройка ASTRA](http://b4.icdn.ru/s/slavabogu/5/56430645JuZ.jpg "Настройка ASTRA") - настройки основного потока передачи;
 
 	- OUTPUT TYPE - выбор типа источника передачи;
 	
-	![Тип output источника](http://b4.icdn.ru/s/slavabogu/0/56431440GrC.jpg "Тип output источника")
+	![Настройка ASTRA](http://b4.icdn.ru/s/slavabogu/0/56431440GrC.jpg "Настройка ASTRA")
 	
-	![Порядок SPTS потоков](http://b4.icdn.ru/s/slavabogu/6/56430646fUp.jpg "Порядок SPTS потоков") - выбор порядка основного и резервных выходных потоков;
+	![Настройка ASTRA](http://b4.icdn.ru/s/slavabogu/6/56430646fUp.jpg "Настройка ASTRA") - выбор порядка основного и резервных выходных потоков;
 	
 	
 	
 ### UDP/RTP
 
-### DVB
-
-### ATSC
-
-### ASI
-
 ### HTTP (MPEG-TS, HLS)
 
 ### RTSP
 
-### MPEG-TS файлы   
+### MPEG-TS файлы
+
+### ASI
+
+### DVB-S/S2
+
+### DVB-T/T2
+
+### DVB-C
+
+### ATSC
+
+### ISDB-T
+
+   
         
         
         
