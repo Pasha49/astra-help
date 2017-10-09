@@ -14,7 +14,7 @@
 
 `TRANSPONDER` - параметры транспондера:
 
-   - FREQUENCY - частота (950-13250 MHz);  
+   - FREQUENCY - частота несущей (950-13250 MHz);  
    - POLARIZATION - поляризация (Vertical, Horizontal, Right, Left);  
    - SYMBOLRATE - символьная скорость (1000-50000 Kbaud);
 
