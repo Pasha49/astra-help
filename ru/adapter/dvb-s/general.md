@@ -18,4 +18,4 @@
    - POLARIZATION - поляризация (Vertical, Horizontal, Right, Left);  
    - SYMBOLRATE - символьная скорость (1000-50000 Kbaud);
 
-`Remove` - удаление адаптера и каналов.
+`Remove` - удаление адаптера и всех каналов связанных с ним.
