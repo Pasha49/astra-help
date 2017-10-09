@@ -12,7 +12,7 @@
    - Terrestrial: DVB-T, DVB-T2, ATSC, ISDB-T;  
    - Cable: DVB-C, DVB-C (Annex A), DVB-C (Annex B), DVB-C (Annex C), DVB-ASI;
 
-`FREQUENCY` - частота (80-1000 MHz);
+`FREQUENCY` - частота несущей (80-1000 MHz);
 
 `SYMBOLRATE` - символьная скорость (1000-10000 Kbaud);
 
