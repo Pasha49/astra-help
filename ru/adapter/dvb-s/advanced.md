@@ -1,6 +1,6 @@
 #### Advanced
 
-`MODULATION` - модуляция, возможные значения: `Default: Auto` (по умолчанию), `QPSK`, `QAM16`, `QAM32`, `QAM64`, `QAM128`, `QAM256`, `VSB8`, `VSB16`, `PSK8`, `APSK16`, `APSK32`, `DQPSK`;
+`MODULATION` - модуляция, возможные значения: `Default: Auto` (по умолчанию), `QPSK`, `QAM16`, `QAM32`, `QAM64`, `QAM128`, `QAM256`, `VSB8`, `VSB16`, `PSK8`, `APSK16`, `APSK32`, `DQPSK`. По умолчанию сейчас для DVB-S - QPSK, DVB-S2 - PSK8;
 
 `FEC` - forward error correction (система корректирующих кодов), возможные значения: `Default: Auto` (по умолчанию), `NONE`, `1/2`, `2/3`, `3/4`, `4/5`, `5/6`, `6/7`, `7/8`, `8/9`, `3/5`, `9/10`';
 
