@@ -17,10 +17,11 @@
 - `NEW INPUT` - добавить источник приёма
 
 ![Шестерёнка](http://i12.pixs.ru/storage/2/7/3/shesterenk_2079276_27823273.png)
-> ![Стрелки](http://i12.pixs.ru/storage/4/0/0/strelki2pn_9650459_27823400.png)  
+
+![Стрелки](http://i12.pixs.ru/storage/4/0/0/strelki2pn_9650459_27823400.png)  
 >   - `Disable` - отключить источник приёма
 >   - `Remove` - удалить источник приёма
 
-
+- `OUTPUT LIST` - список источников передачи
 
 
