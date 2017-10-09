@@ -6,14 +6,14 @@
 
 `ROLL-OFF` - spectrum efficiency (коэфициент сглаживания), используется только для DVB-S2, возможные значения: Default: `35` (по умолчанию), `25`, `20`, `AUTO`;
 
-`STREAM ID` - *Multistream filtering* - PLP stream ID, только для DVB-S2 и DVB-T2:  
+`STREAM ID` - PLP stream ID, только для DVB-S2 и DVB-T2:  
    - `PLS MODE` - возможные значения: `Root`, `Gold`, `Combo`;
    - `PLS CODE` - возможные значения: `0 - 262143`;
    - `STREAM ID` - возможные значения: `0 - 255`;
 
-`TIMEOUT` - *Delay in seconds before check DVR errors. Default 2 sec* - задержка в секундах до проверки DVR ошибок, по умолчанию 2 секунды;
+`TIMEOUT` - задержка в секундах до проверки DVR ошибок, по умолчанию 2 секунды;
 
-`DDCI` - *Bind adapter to the DigitalDevices CI* - привязать адаптер к DVB-CI Digital Devices, значение соответствует номеру адаптера в системе;
+`DDCI` - привязать адаптер к DVB-CI Digital Devices, значение соответствует номеру адаптера в системе;
 
 `Budget Mode. Disable hardware PID filtering` - отключить аппаратную фильтрацию данных. Astra получит весь поток с DVB-адаптера. Параметр используется для передачи всего транспондера или для устаревших DVB-адаптеров без аппаратной фильтрации (например SkyStar 2). По умолчанию, аппаратная фильтрация включена;
 
