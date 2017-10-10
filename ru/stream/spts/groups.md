@@ -13,3 +13,5 @@
   - `GROUP NAME` - имя группы
 
   - `ADD GROUP` - добавить группу
+  
+- `Remove Category` - удалить категорию
