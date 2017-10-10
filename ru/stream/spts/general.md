@@ -119,7 +119,7 @@
       - `PORT` - порт передаваемого потока, по умолчанию: `1234`
       - `Remove` - удалить передачу потока
       
-    - `RESI Modulator`
+    - [RESI Modulator](https://cesbo.com/ru/digitaldevices/fsm8-modulator/)
       - `ADAPTER` - выбор адаптера
       - `DEVICE` - выбор устройства
       - `FREQUENCY` - частота, возможное значение: `114...858 MHz`
