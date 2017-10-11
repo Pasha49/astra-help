@@ -30,3 +30,14 @@
   - `UTF-8`
   
 - `HBBTV URL` - адрес страницы hbbtv
+
+- `CONDITIONAL ACCESS` - условный доступ
+
+  - `CAS #1` - поле выбора ранее созданного CAS, по умолчанию: `NONE`
+  - `ECM PID`
+  - `ECM PRIVATE DATA (HEX)`
+  - `ACCESS CRITERIA (HEX)`
+  
+- `NEW CAS` - добавить систему условного доступа
+
+- `REMOVE CAS` - удалить систему условного доступа
