@@ -1,1 +1,1 @@
-[start](README.md)
+[start](ru/stream/spts/general.md)
